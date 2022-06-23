@@ -15,7 +15,7 @@ with open('qimc/__init__.py', 'rb') as f:
 setup(
 	name='qimc',
 	version=version,
-	description='ERP Customisations for INDIPCO',
+	description='ERP Customisations for QIMC',
 	author='Taazur',
 	author_email='santosh.baburao@gmail.com',
 	packages=find_packages(),

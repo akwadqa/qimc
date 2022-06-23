@@ -1,6 +1,6 @@
 ## qimc
 
-ERP Customisations for INDIPCO
+ERP Customisations for QIMC
 
 #### License
 
