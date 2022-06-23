@@ -5,15 +5,15 @@ import re, ast
 with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
-# get version from __version__ variable in indipco/__init__.py
+# get version from __version__ variable in qimc/__init__.py
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('indipco/__init__.py', 'rb') as f:
+with open('qimc/__init__.py', 'rb') as f:
 	version = str(ast.literal_eval(_version_re.search(
 		f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='indipco',
+	name='qimc',
 	version=version,
 	description='ERP Customisations for INDIPCO',
 	author='Taazur',

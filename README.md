@@ -1,4 +1,4 @@
-## indipco
+## qimc
 
 ERP Customisations for INDIPCO
 
