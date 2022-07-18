@@ -22,19 +22,25 @@
    "fieldname": "ind_item_group",
    "fieldtype": "Read Only",
    "hidden": 0,
+   "hide_border": 0,
+   "hide_days": 0,
+   "hide_seconds": 0,
    "idx": 10,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_global_search": 0,
    "in_list_view": 0,
+   "in_preview": 0,
    "in_standard_filter": 0,
    "insert_after": "set_rate_of_sub_assembly_item_based_on_bom",
    "label": "Item Group",
    "length": 0,
+   "mandatory_depends_on": null,
    "modified": "2020-02-03 22:43:04.189192",
    "modified_by": "Administrator",
    "name": "BOM-ind_item_group",
    "no_copy": 0,
+   "non_negative": 0,
    "options": null,
    "owner": "Administrator",
    "parent": null,
@@ -46,6 +52,7 @@
    "print_hide_if_no_value": 0,
    "print_width": null,
    "read_only": 0,
+   "read_only_depends_on": null,
    "report_hide": 0,
    "reqd": 0,
    "search_index": 0,
@@ -83,6 +90,7 @@
    "read": 1,
    "report": 1,
    "role": "Manufacturing User",
+   "select": 0,
    "set_user_permissions": 0,
    "share": 0,
    "submit": 1,
@@ -116,6 +124,7 @@
    "read": 1,
    "report": 1,
    "role": "Manufacturing Manager",
+   "select": 0,
    "set_user_permissions": 0,
    "share": 0,
    "submit": 1,
@@ -149,6 +158,7 @@
    "read": 1,
    "report": 1,
    "role": "Supervisor",
+   "select": 0,
    "set_user_permissions": 0,
    "share": 0,
    "submit": 0,
@@ -182,6 +192,7 @@
    "read": 1,
    "report": 0,
    "role": "All",
+   "select": 0,
    "set_user_permissions": 0,
    "share": 0,
    "submit": 0,
@@ -211,6 +222,7 @@
    "parenttype": null,
    "property": "read_only",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -234,6 +246,7 @@
    "parenttype": null,
    "property": "default_print_format",
    "property_type": "Data",
+   "row_name": null,
    "value": "BOM"
   },
   {
@@ -257,6 +270,7 @@
    "parenttype": null,
    "property": "in_standard_filter",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -280,6 +294,7 @@
    "parenttype": null,
    "property": "in_global_search",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -303,6 +318,7 @@
    "parenttype": null,
    "property": "title_field",
    "property_type": "Data",
+   "row_name": null,
    "value": ""
   },
   {
@@ -326,6 +342,7 @@
    "parenttype": null,
    "property": "in_list_view",
    "property_type": "Check",
+   "row_name": null,
    "value": "0"
   },
   {
@@ -349,6 +366,7 @@
    "parenttype": null,
    "property": "search_fields",
    "property_type": "Data",
+   "row_name": null,
    "value": "item, item_name,routing"
   },
   {
@@ -372,29 +390,7 @@
    "parenttype": null,
    "property": "in_list_view",
    "property_type": "Check",
-   "value": "1"
-  },
-  {
-   "_assign": null,
-   "_comments": null,
-   "_liked_by": null,
-   "_user_tags": null,
-   "creation": "2019-10-28 10:44:43.026175",
-   "default_value": null,
-   "doc_type": "BOM",
-   "docstatus": 0,
-   "doctype_or_field": "DocField",
-   "field_name": "transfer_material_against",
-   "idx": 0,
-   "modified": "2019-10-28 10:44:43.026175",
-   "modified_by": "Administrator",
-   "name": "BOM-transfer_material_against-read_only",
-   "owner": "Administrator",
-   "parent": null,
-   "parentfield": null,
-   "parenttype": null,
-   "property": "read_only",
-   "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -418,6 +414,7 @@
    "parenttype": null,
    "property": "in_standard_filter",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -441,6 +438,7 @@
    "parenttype": null,
    "property": "in_list_view",
    "property_type": "Check",
+   "row_name": null,
    "value": "0"
   },
   {
@@ -464,6 +462,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -487,6 +486,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -510,6 +510,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -533,6 +534,7 @@
    "parenttype": null,
    "property": "read_only",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -556,6 +558,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -579,6 +582,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -602,6 +606,7 @@
    "parenttype": null,
    "property": "hidden",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -625,6 +630,7 @@
    "parenttype": null,
    "property": "default",
    "property_type": "Text",
+   "row_name": null,
    "value": "1"
   }
  ],

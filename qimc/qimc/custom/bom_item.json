@@ -8,6 +8,54 @@
    "_comments": null,
    "_liked_by": null,
    "_user_tags": null,
+   "creation": "2022-07-18 21:44:15.753354",
+   "default_value": null,
+   "doc_type": "BOM Item",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "source_warehouse",
+   "idx": 0,
+   "modified": "2022-07-18 21:44:15.753354",
+   "modified_by": "santosh@akwad.qa",
+   "name": "BOM Item-source_warehouse-columns",
+   "owner": "santosh@akwad.qa",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "columns",
+   "property_type": "Int",
+   "row_name": null,
+   "value": "1"
+  },
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
+   "creation": "2022-07-18 21:43:25.257816",
+   "default_value": null,
+   "doc_type": "BOM Item",
+   "docstatus": 0,
+   "doctype_or_field": "DocField",
+   "field_name": "item_name",
+   "idx": 0,
+   "modified": "2022-07-18 21:43:25.257816",
+   "modified_by": "santosh@akwad.qa",
+   "name": "BOM Item-item_name-in_list_view",
+   "owner": "santosh@akwad.qa",
+   "parent": null,
+   "parentfield": null,
+   "parenttype": null,
+   "property": "in_list_view",
+   "property_type": "Check",
+   "row_name": null,
+   "value": "1"
+  },
+  {
+   "_assign": null,
+   "_comments": null,
+   "_liked_by": null,
+   "_user_tags": null,
    "creation": "2020-12-30 15:31:24.236325",
    "default_value": null,
    "doc_type": "BOM Item",
@@ -24,6 +72,7 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -47,30 +96,8 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "1"
-  },
-  {
-   "_assign": null,
-   "_comments": null,
-   "_liked_by": null,
-   "_user_tags": null,
-   "creation": "2020-12-30 14:41:25.398016",
-   "default_value": null,
-   "doc_type": "BOM Item",
-   "docstatus": 0,
-   "doctype_or_field": "DocField",
-   "field_name": "source_warehouse",
-   "idx": 0,
-   "modified": "2020-12-30 14:41:25.398016",
-   "modified_by": "Administrator",
-   "name": "BOM Item-source_warehouse-columns",
-   "owner": "Administrator",
-   "parent": null,
-   "parentfield": null,
-   "parenttype": null,
-   "property": "columns",
-   "property_type": "Int",
-   "value": "2"
   },
   {
    "_assign": null,
@@ -93,6 +120,7 @@
    "parenttype": null,
    "property": "in_list_view",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -116,6 +144,7 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "2"
   },
   {
@@ -139,6 +168,7 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "2"
   },
   {
@@ -162,6 +192,7 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -185,6 +216,7 @@
    "parenttype": null,
    "property": "columns",
    "property_type": "Int",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -208,6 +240,7 @@
    "parenttype": null,
    "property": "in_list_view",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -231,6 +264,7 @@
    "parenttype": null,
    "property": "read_only",
    "property_type": "Check",
+   "row_name": null,
    "value": "1"
   },
   {
@@ -254,6 +288,7 @@
    "parenttype": null,
    "property": "default",
    "property_type": "Text",
+   "row_name": null,
    "value": "Work In Progress - QIMC"
   }
  ],

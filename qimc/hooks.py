@@ -21,9 +21,9 @@ app_license = "MIT"
 # app_include_js = "/assets/qimc/js/qimc.js"
 
 #000000000000000000000000 WEBVIEW 0000000000000000000000000
-app_include_css = "/assets/qimc/css/akwad-desk.css"
-web_include_css = "/assets/qimc/css/akwad-web.css"
-web_include_js = "/assets/qimc/js/akwad-web.js"
+#app_include_css = "/assets/qimc/css/akwad-desk.css"
+#web_include_css = "/assets/qimc/css/akwad-web.css"
+#web_include_js = "/assets/qimc/js/akwad-web.js"
 #000000000000000000000000 WEBVIEW 000000000000000000000000
 
 # include js, css files in header of web template
